@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.henny-penny-regular {
+    font-family: "Henny Penny", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: beige;
+    font-family: "Henny Penny", serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+}
+
+h1{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+.players{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+
+}
+.players img{
+    width: 180px;
+    height: auto;
+    object-fit: cover;
+}
+
+ footer{
+    font-size: 15px;
+    background-color: black;
+    color: beige;
+    text-align: right;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    flex-shrink: 0;
+    
+ }
+
+
